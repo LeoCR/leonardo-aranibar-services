@@ -1,10 +1,10 @@
-import React from 'react';
-import Services from './components/services/Services';
-import './main.css'
+import React from "react";
+import Services from "./components/services/Services";
+import "./main.css";
 function App() {
   return (
     <React.Fragment>
-      <Services/>
+      <Services />
     </React.Fragment>
   );
 }
