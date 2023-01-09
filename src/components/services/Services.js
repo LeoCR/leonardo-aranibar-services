@@ -753,6 +753,27 @@ export const Services = () => {
                           the resources during the night when all your customers
                           are sleeping allowing you save a lot of money.
                         </p>
+                        <h3>References</h3>
+                        <ul>
+                          <li>
+                            <a
+                              href="https://platzi.com/cursos/aws-cloud-practico/"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              https://platzi.com/cursos/aws-cloud-practico/
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://platzi.com/cursos/fundamentos-google/"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              https://platzi.com/cursos/fundamentos-google/
+                            </a>
+                          </li>
+                        </ul>
                       </div>
                     </ServiceDescription>
                   </React.Fragment>
