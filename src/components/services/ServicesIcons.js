@@ -4,9 +4,6 @@ import IconWebDevelopment from "./icons/IconWebDevelopment";
 import IconEcommerce from "./icons/IconEcommerce";
 import IconCloudDevelopment from "./icons/IconCloudDevelopment";
 export const ServicesIcons = () => {
-  const getService = () => {
-    document.querySelector("body").classList.add("watching-service-desc");
-  };
   return (
     <div
       id="icons-services-div"
@@ -21,7 +18,6 @@ export const ServicesIcons = () => {
         to="/services/web-development"
         data-href="/services/web-development"
         className="icon-service"
-        onClick={() => getService()}
       >
         <figure
           className="service_icon_btn"
@@ -47,7 +43,6 @@ export const ServicesIcons = () => {
         to="/services/ecommerce"
         data-href="/services/ecommerce"
         className="icon-service"
-        onClick={() => getService()}
       >
         <figure
           id="figure_ecommerce"
@@ -66,7 +61,6 @@ export const ServicesIcons = () => {
         to="/services/cloud-development"
         data-href="/services/cloud-development"
         className="icon-service"
-        onClick={() => getService()}
       >
         <figure
           id="figure_cloud_development"
