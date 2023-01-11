@@ -40,8 +40,8 @@ export const ServicesIcons = () => {
                 </figure> 
             </Link> */}
       <Link
-        to="/services/ecommerce"
-        data-href="/services/ecommerce"
+        to="/services/e-commerce"
+        data-href="/services/e-commerce"
         className="icon-service"
       >
         <figure

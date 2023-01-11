@@ -545,7 +545,7 @@ export const Services = () => {
               />
               <Route
                 exact
-                path="/services/ecommerce"
+                path="/services/e-commerce"
                 render={() => (
                   <React.Fragment>
                     <ServiceDescription>
@@ -599,7 +599,7 @@ export const Services = () => {
                         </div>
 
                         <div className="bg_white">
-                          <h3>Data Protection</h3>
+                          <h2>Data Protection</h2>
                           <p>
                             The correct treatment of the data must be ensured
                             and ensured, the informed consent of the users must
@@ -639,7 +639,7 @@ export const Services = () => {
                               charge of the database.
                             </li>
                           </ul>
-                          <h3>Electronic Commerce and Consumer Protection</h3>
+                          <h2>Electronic Commerce and Consumer Protection</h2>
                           <p>
                             Information must be clear, precise, sufficient,
                             accessible, up-to-date and in a language that is
@@ -655,7 +655,7 @@ export const Services = () => {
                               Information about the price, discounts and taxes.
                             </li>
                           </ul>
-                          <h3>Product delivery and product return policy</h3>
+                          <h2>Product delivery and product return policy</h2>
                           <p>
                             The e-commerce establishment must establish
                             precisely and clearly the delivery conditions of the
@@ -665,7 +665,7 @@ export const Services = () => {
                             rather, if it will be the customer who must pick up
                             the product at the trade facilities.
                           </p>
-                          <h3>Intellectual Property:</h3>
+                          <h2>Intellectual Property:</h2>
                           <p>
                             We must ensure the protection of intellectual
                             property, for this reason it is good practice to
@@ -696,14 +696,17 @@ export const Services = () => {
                               users on the Web platform.
                             </li>
                           </ul>
-                          <h3>Other considerations</h3>
+                          <h2>
+                            Other legal considerations before create an
+                            e-commerce
+                          </h2>
                           <p>
                             An online business must pay attention to various
                             other legal issues that could affect its
                             profitability if it does not provide the
                             corresponding provisions:
                           </p>
-                          <h4>Domain management:</h4>
+                          <h3>Domain management:</h3>
                           <p>
                             The domain name is the address or URL that the
                             website will have, therefore one of the most
@@ -721,11 +724,12 @@ export const Services = () => {
                             find a new domain name, causing considerable impact
                             to the operation of the business.
                           </p>
-                          <h4>
+                          <p>
                             The legal contracts with the developers of the
-                            platform or the agency that manages the website.
-                          </h4>
-                          <h4>Tax obligations</h4>
+                            platform or the agency that manages the website is
+                            very important to avoid mistakes.
+                          </p>
+                          <h3>Tax obligations</h3>
                           <p>
                             An electronic commerce site pays the same taxes as a
                             traditional business or company, so they must make
@@ -733,7 +737,7 @@ export const Services = () => {
                             charges of a legal entity or natural person that
                             exercises trade.
                           </p>
-                          <h4>Rules of conduct for users</h4>
+                          <h3>Rules of conduct for users</h3>
                           <p>
                             If the website is an eMarketplace that brings
                             together sellers and buyers or that manages some
@@ -742,7 +746,7 @@ export const Services = () => {
                             the platform, so that users know and are certain of
                             what can be done. or cannot be done on site.
                           </p>
-                          <h4>Specific industries</h4>
+                          <h3>Specific industries</h3>
                           <p>
                             If the company's activity responds to a specific
                             industry such as finance or health, or its product
@@ -761,7 +765,7 @@ export const Services = () => {
                             modern solutions I can give you something more
                             custom focused in nodejs and React.
                           </p>
-                          <h3>References</h3>
+                          <h2>References</h2>
                           <ul>
                             <li>
                               <a
