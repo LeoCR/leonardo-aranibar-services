@@ -35,7 +35,7 @@
 }
 
 #icons-services-div {
-  margin-top: 180px;
+  margin-top: 30px;
 }
 .selected,
 #service-description,
@@ -207,7 +207,7 @@ a.icon-service {
 }
 
 .btn-back {
-  background: #000 !important;
+  background: #000;
 }
 .txt_benefits {
   font-size: 11px !important;

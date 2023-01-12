@@ -135,6 +135,15 @@ export const Services = () => {
               />
               <Route
                 exact
+                path="/services"
+                render={() => (
+                  <React.Fragment>
+                    <ServicesIcons />
+                  </React.Fragment>
+                )}
+              />
+              <Route
+                exact
                 path="/services/electronic-bill"
                 render={() => (
                   <React.Fragment>

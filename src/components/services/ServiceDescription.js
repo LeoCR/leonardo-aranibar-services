@@ -36,7 +36,7 @@ export const ServiceDescription = (props) => {
         setServiceTitle("Web Development");
       } else if (splitLocalUrl[2] === "cloud-development") {
         setServiceTitle("Cloud Development");
-      } else if (splitLocalUrl[2] === "ecommerce") {
+      } else if (splitLocalUrl[2] === "e-commerce") {
         setServiceTitle("E-commerce");
       }
     } catch (error) {
@@ -50,7 +50,6 @@ export const ServiceDescription = (props) => {
   const goBack = () => {
     try {
       setTimeout(() => {
-        $(".data_fill").css({ fill: "#fff", "fill-opacity": 1 });
         $("#shopping-cart").css({ fill: "#ffb462" });
         $("#path_cloud_middle_svg_service").css({ fill: "#ffa542" });
         $("#path_cloud_service").css({ fill: "#ffa542" });
