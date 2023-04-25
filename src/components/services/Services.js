@@ -1,16 +1,12 @@
 import React from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
+import { AnimatePresence, motion } from "framer-motion";
 import ServicesIcons from "./ServicesIcons";
-import { Route } from "react-router-dom";
-import ServiceDescription from "./ServiceDescription";
-import { TransitionGroup } from "react-transition-group";
 
-var Router;
-if (typeof document !== "undefined") {
-  Router = require("react-router-dom").BrowserRouter;
-} else {
-  Router = require("react-router-dom").StaticRouter;
-}
+import ServiceDescription from "./ServiceDescription";
+
 export const Services = () => {
+  const location = useLocation();
   return (
     <React.Fragment>
       <article
@@ -25,19 +21,20 @@ export const Services = () => {
         }}
       >
         <div id="services">
-          <TransitionGroup
-            enter={true}
-            exit={true}
-            appear={true}
-            id="transition-group-container"
-            style={{ width: "100%" }}
-          >
-            <Router>
+          <AnimatePresence>
+            <Routes location={location} key={location.pathname}>
               <Route
-                exact
                 path="/services/cloud-development"
-                render={() => (
-                  <React.Fragment>
+                element={
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{
+                      transition: {
+                        duration: 0.4,
+                      },
+                    }}
+                  >
                     <ServiceDescription>
                       <article className="content_service_article_container">
                         <div className="first-child-p">
@@ -88,74 +85,88 @@ export const Services = () => {
                             customers are sleeping allowing you save a lot of
                             money.
                           </p>
-                          <h3>References</h3>
-                          <ul>
-                            <li>
-                              <a
-                                href="https://platzi.com/cursos/aws-cloud-practico/"
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                https://platzi.com/cursos/aws-cloud-practico/
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="https://platzi.com/cursos/fundamentos-google/"
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                https://platzi.com/cursos/fundamentos-google/
-                              </a>
-                            </li>
-                          </ul>
                         </div>
                       </article>
                     </ServiceDescription>
-                  </React.Fragment>
-                )}
+                  </motion.div>
+                }
               />
               <Route
-                exact
                 path="/"
-                render={() => (
-                  <React.Fragment>
+                element={
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{
+                      transition: {
+                        duration: 0.4,
+                      },
+                    }}
+                  >
                     <ServicesIcons />
-                  </React.Fragment>
-                )}
+                  </motion.div>
+                }
               />
               <Route
-                exact
                 path="/leonardoaranibar/"
-                render={() => (
-                  <React.Fragment>
+                element={
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{
+                      transition: {
+                        duration: 0.4,
+                      },
+                    }}
+                  >
                     <ServicesIcons />
-                  </React.Fragment>
-                )}
+                  </motion.div>
+                }
               />
               <Route
-                exact
                 path="/services"
-                render={() => (
-                  <React.Fragment>
+                element={
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{
+                      transition: {
+                        duration: 0.4,
+                      },
+                    }}
+                  >
                     <ServicesIcons />
-                  </React.Fragment>
-                )}
+                  </motion.div>
+                }
               />
               <Route
-                exact
                 path="/services/electronic-bill"
-                render={() => (
-                  <React.Fragment>
+                element={
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{
+                      transition: {
+                        duration: 0.4,
+                      },
+                    }}
+                  >
                     <ServiceDescription />
-                  </React.Fragment>
-                )}
+                  </motion.div>
+                }
               />
               <Route
-                exact
                 path="/services/web-development"
-                render={() => (
-                  <React.Fragment>
+                element={
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{
+                      transition: {
+                        duration: 0.4,
+                      },
+                    }}
+                  >
                     <ServiceDescription>
                       <article className="content_service_article_container">
                         <div className="first-child-p">
@@ -445,15 +456,7 @@ export const Services = () => {
                                 https://www.interaction-design.org/literature/article/key-question-in-user-experience-design-usability-vs-desirability
                               </a>
                             </li>
-                            <li>
-                              <a
-                                href="https://hbr.org/2016/09/the-elements-of-value"
-                                rel="noreferrer"
-                                target="_blank"
-                              >
-                                https://hbr.org/2016/09/the-elements-of-value
-                              </a>
-                            </li>
+
                             <li>
                               <a
                                 href="https://uxmag.com/articles/accessibility-in-ux-the-case-for-radical-empathy"
@@ -463,15 +466,7 @@ export const Services = () => {
                                 https://uxmag.com/articles/accessibility-in-ux-the-case-for-radical-empathy
                               </a>
                             </li>
-                            <li>
-                              <a
-                                href="https://uxpamagazine.org/reliability-and-validity-ensuring-a-foolproof-ux-research-plan/"
-                                rel="noreferrer"
-                                target="_blank"
-                              >
-                                https://uxpamagazine.org/reliability-and-validity-ensuring-a-foolproof-ux-research-plan/
-                              </a>
-                            </li>
+
                             <li>
                               <a
                                 href="https://baymard.com/learn/findability-vs-discoverability-ux"
@@ -502,24 +497,6 @@ export const Services = () => {
                             </li>
                             <li>
                               <a
-                                href="https://www.fao.org/3/w3241e/w3241e05.htm"
-                                rel="noreferrer"
-                                target="_blank"
-                              >
-                                https://www.fao.org/3/w3241e/w3241e05.htm
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="https://uxdesign.cc/card-sorting-what-how-the-perks-29f6cb020270"
-                                rel="noreferrer"
-                                target="_blank"
-                              >
-                                https://uxdesign.cc/card-sorting-what-how-the-perks-29f6cb020270
-                              </a>
-                            </li>
-                            <li>
-                              <a
                                 href="https://uxdesign.cc/ux-storyboarding-2ce43875f3de"
                                 rel="noreferrer"
                                 target="_blank"
@@ -527,36 +504,25 @@ export const Services = () => {
                                 https://uxdesign.cc/ux-storyboarding-2ce43875f3de
                               </a>
                             </li>
-                            <li>
-                              <a
-                                href="https://uxdesign.cc/writing-usecases-for-a-design-document-56e41d883d3a"
-                                rel="noreferrer"
-                                target="_blank"
-                              >
-                                https://uxdesign.cc/writing-usecases-for-a-design-document-56e41d883d3a
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="https://theproductmanager.com/topics/prototyping-vs-wireframing/"
-                                rel="noreferrer"
-                                target="_blank"
-                              >
-                                https://theproductmanager.com/topics/prototyping-vs-wireframing/
-                              </a>
-                            </li>
                           </ul>
                         </div>
                       </article>
                     </ServiceDescription>
-                  </React.Fragment>
-                )}
+                  </motion.div>
+                }
               />
               <Route
-                exact
                 path="/services/e-commerce"
-                render={() => (
-                  <React.Fragment>
+                element={
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{
+                      transition: {
+                        duration: 0.4,
+                      },
+                    }}
+                  >
                     <ServiceDescription>
                       <article className="content_service_article_container">
                         <div className="first-child-p">
@@ -789,11 +755,11 @@ export const Services = () => {
                         </div>
                       </article>
                     </ServiceDescription>
-                  </React.Fragment>
-                )}
+                  </motion.div>
+                }
               />
-            </Router>
-          </TransitionGroup>
+            </Routes>
+          </AnimatePresence>
         </div>
       </article>
     </React.Fragment>

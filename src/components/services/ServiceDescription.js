@@ -1,25 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Subtitle from "../Subtitle";
-import $ from "jquery";
 
 export const ServiceDescription = (props) => {
   let [serviceTitle, setServiceTitle] = useState("Web Development");
-
   const setBodyClass = () => {
     try {
-      setTimeout(() => {
-        if (window.innerWidth <= 580) {
-          document.querySelector("body").classList.add("is-mobile");
-        } else {
-          document.querySelector("body").classList.remove("is-mobile");
-        }
-        $(".nav_btn").each(function () {
-          if ($(this).data("href") === "#services") {
-            $(this).addClass("selected");
-          }
-        });
-      }, 200);
+      if (window.innerWidth <= 580) {
+        document.querySelector("body").classList.add("is-mobile");
+      } else {
+        document.querySelector("body").classList.remove("is-mobile");
+      }
     } catch (error) {
       console.log(
         "An error occurs in ServiceDescription.js setBodyClass() " + error
@@ -49,11 +40,6 @@ export const ServiceDescription = (props) => {
   }, []);
   const goBack = () => {
     try {
-      setTimeout(() => {
-        $("#shopping-cart").css({ fill: "#ffb462" });
-        $("#path_cloud_middle_svg_service").css({ fill: "#ffa542" });
-        $("#path_cloud_service").css({ fill: "#ffa542" });
-      }, 100);
     } catch (error) {
       console.log("An error occurs in ServiceDescription.goBack()");
     }
