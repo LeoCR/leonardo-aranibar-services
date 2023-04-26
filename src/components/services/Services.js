@@ -176,17 +176,33 @@ export const Services = () => {
                             Interfaces and User Experiences,is good to know that
                             a good User Experience(UX) occurs when a web
                             application lack of Instructions I mean the user
-                            shouldn't need to read a Guide to know how to use a
-                            Web Application. I am not saying that you shouldn't
+                            shouldn’t need to read a Guide to know how to use a
+                            Web Application. I am not saying that you shouldn’t
                             create documentations of your Web Applications in
-                            fact the documentation garanty the quality of your
+                            fact the documentation guarantee the quality of your
                             Web Application, my point is that if you like to
                             have a good user experience your web applications
-                            should be 100% intuitive such as Facebook, Gmail ,
-                            Twitter or Google Calendar for example,these web
+                            should be 100% intuitive such as Facebook, Gmail
+                            ,Twitter or Google Calendar for example,these web
                             applications lack of instructions and these apps are
                             easy to use.
                           </p>
+                          <figure className="wp-block-image size-full img-blog">
+                            <img
+                              decoding="async"
+                              width="512"
+                              height="512"
+                              src="https://leonardoaranibar.co.cr/wp-content/uploads/2023/02/001-usability.png"
+                              data-src="https://leonardoaranibar.co.cr/wp-content/uploads/2023/02/001-usability.png"
+                              alt="Usability"
+                              className="wp-image-299 lazy loaded"
+                              data-srcset="https://leonardoaranibar.co.cr/wp-content/uploads/2023/02/001-usability.png 512w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/02/001-usability-300x300.png 300w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/02/001-usability-150x150.png 150w"
+                              data-sizes="(max-width: 512px) 100vw, 512px"
+                              sizes="(max-width: 512px) 100vw, 512px"
+                              srcset="https://leonardoaranibar.co.cr/wp-content/uploads/2023/02/001-usability.png 512w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/02/001-usability-300x300.png 300w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/02/001-usability-150x150.png 150w"
+                              data-was-processed="true"
+                            />
+                          </figure>
                           <p>
                             Exists a lot of ways to create web applications with
                             a good UX,basically I think that the UX has a bunch
@@ -215,7 +231,7 @@ export const Services = () => {
                             Every time that we are defining our user
                             interfaces,we should be able to answer this question
                             in order to prevent work in features that our final
-                            users doesn't care about.
+                            users doesn’t care about.
                           </p>
                           <h4>
                             Does the feature meet the needs of the final users?
@@ -275,37 +291,32 @@ export const Services = () => {
                             on your user interface.It means users will be able
                             to find content easily on your app.
                           </p>
+                          <h1>What I need to design the UI of my app?</h1>
                           <p>
-                            Before to start to design and create the wireframes
-                            and prototipes of your web application is important
-                            to know that we should have a balance between the
-                            Business Needs and the Final User needs,so in order
-                            to evaluate and measure the scopes of these features
-                            that we need ,there is a bunch of methods that we
-                            can use to evaluate the needs of your final users
-                            before to start to design the wireframes of your
-                            User Interfaces(UI's) such as: Stakeholder
-                            Interviews, Questionnaires, card
-                            sorting,Storyboards,Diagram of Use Cases,User
-                            Testing,Surveys...
+                            In order to design and create the wireframes and
+                            prototipes of your web application I think that is
+                            important have a balance between the Business Needs
+                            and the Final User needs,so there is a bunch of
+                            methods that we can use to evaluate the needs of
+                            your final users such as: Stakeholder Interviews,
+                            Questionnaires, card sorting,Storyboards,Diagram of
+                            Use Cases,User Testing,Surveys...
                           </p>
-                          <h3>Stakeholder Interviews:</h3>
+                          <h2>Stakeholder Interviews:</h2>
                           <p>
                             Stakeholder interviews are one-on-one conversations
                             with people who have a vested interest in the
-                            success of the product you are working on.
+                            success of the product you are working on.A
+                            stakeholder is anyone within an organization who can
+                            offer useful advice about the product and ultimately
+                            help simplify the design process. Additionally,
+                            stakeholders rely on the product’s success for their
+                            own gain, either personally or professionally.
+                            Although these are normally high-level employees,
+                            stakeholders can be lower-level employees or even
+                            prominent users.
                           </p>
-                          <p>
-                            A stakeholder is anyone within an organization who
-                            can offer useful advice about the product and
-                            ultimately help simplify the design process.
-                            Additionally, stakeholders rely on the product’s
-                            success for their own gain, either personally or
-                            professionally. Although these are normally
-                            high-level employees, stakeholders can be
-                            lower-level employees or even prominent users.
-                          </p>
-                          <h3>Questionaries:</h3>
+                          <h2>Questionaries:</h2>
                           <p>
                             There are nine steps involved in the development of
                             a questionnaire:
@@ -326,7 +337,7 @@ export const Services = () => {
                             <li>Pre-test the questionnaire.</li>
                             <li>Develop the final survey form.</li>
                           </ul>
-                          <h3>Card Sorting:</h3>
+                          <h2>Card Sorting:</h2>
                           <p>
                             Is a method used to help design or evaluate
                             information architecture. In a typical card sorting
@@ -336,7 +347,7 @@ export const Services = () => {
                             actual cards, pieces of paper, or one of several
                             online card-sorting software tools.
                           </p>
-                          <h3>Storyboards:</h3>
+                          <h2>Storyboards:</h2>
                           <p>
                             The purpose of UX storyboards is to consider and
                             communicate a sequence of states, rather than
@@ -344,26 +355,23 @@ export const Services = () => {
                             how someone might interact with a future product or
                             service.
                           </p>
-                          <h3>Diagram of Use Cases:</h3>
+                          <h2>Diagram of Use Cases:</h2>
                           <p>
                             The use cases are the description that explains how
                             the user should be able to use the product for the
                             completion of the task. A Use case depends on Users
-                            action and the system responses to the users action.
-                          </p>
-                          <p>
-                            Once that we have already covered these features
-                            with one of the methods presented above , we can
-                            continue with the next steps that consist in design
-                            your wireframes and then the Prototipes of the
-                            UI's.At this point is important to have already
-                            identified your use cases,(to do that you can use a
-                            Diagram of Use Cases UML),once that all the parts
-                            approved this diagram(Stakeholders, Team Leads,
-                            Product Owner,UX Leads,...) now we can start to
+                            action and the system responses to the users
+                            action.Once that we have already covered these
+                            features with one of the methods presented above ,
+                            we can continue with the next steps that consist in
+                            design your wireframes and then the Prototipes of
+                            the UI’s.At this point is important to have already
+                            identified your use cases, once that all the parts
+                            approved this diagram(Stakeholders, Team
+                            Leads,Product Owner,UX Leads,…) now we can start to
                             design the wireframes and then the prototipes.
                           </p>
-                          <h3>What is a Wireframe?</h3>
+                          <h2>What is a Wireframe?</h2>
                           <p>
                             Wireframes provide a clear overview of the page
                             structure, layout, information architecture, user
@@ -373,7 +381,7 @@ export const Services = () => {
                             the information will be placed before the developers
                             build the interface out with code.
                           </p>
-                          <h3>What is a Prototype?</h3>
+                          <h2>What is a Prototype?</h2>
                           <p>
                             A simulation or sample version of a final product,
                             which UX teams use for testing before launch.The
@@ -382,10 +390,10 @@ export const Services = () => {
                             passing the final designs to engineering teams for
                             the development process.
                           </p>
-                          <h3>
+                          <h2>
                             What is the difference between Wireframes and
                             Prototypes?
-                          </h3>
+                          </h2>
                           <ul>
                             <li>
                               A wireframe is low-fidelity that takes less time
@@ -418,32 +426,80 @@ export const Services = () => {
                             toguether with Graphic Designers in order to provide
                             a beatiful UI.
                           </p>
-                          <h3>Finally design the Backend</h3>
+                          <h2>Finally design the Backend</h2>
                           <p>
                             Once that we have the prototipes already created is
                             time to design the Architecture of your Web
-                            Application,basically we need to define in a
-                            document the components of the BackEnd that we will
-                            need such as what kind of database we need for
-                            example MongoDB, MySQL or GraphQL,what languages we
-                            will need to process data such as Python,Java or
-                            NodeJS,where we will put our microservices for
-                            example Google Cloud Platform or Amazon Web Services
-                            , the costs of these components,diagrams of sequence
-                            , diagrams Entity Relationship,Model of Data,the
-                            limitations of our app,the scope of this web
-                            application, cases of use (Describe the purpose of
-                            each prototipe to get it),finally a custom diagram
-                            about how should be the flow of our backend with all
-                            the infrastructure.
+                            Application,for these step we might use a bunch of
+                            Diagrams to describe your Backend such as diagram of
+                            architecture,diagram of Entity Relationship, Diagram
+                            of Classes.{" "}
                           </p>
                           <p>
-                            Finally once that all team members have already
-                            identified all these features and scope of the Web
-                            Application is time to define the User Stories that
-                            we need to address and split the development of
-                            these user stories in sprints , then we can start to
-                            program.
+                            Basically we need to define the components of the
+                            BackEnd that we will need we also need to define
+                            what kinds of databases we need for example MongoDB,
+                            MySQL,Postgres or MSSQL. Where we will put our web
+                            application or our microservices for example Google
+                            Cloud Platform, Microsoft Azure or Amazon Web
+                            Services? How much will be the costs of these
+                            components? to do that the Cloud Providers have a
+                            bunch price calculators such as{" "}
+                            <a
+                              href="https://azure.microsoft.com/en-us/products/cost-management/"
+                              target="_blank"
+                              rel="noreferrer noopener"
+                              title="Microsoft Management in Azure"
+                            >
+                              Microsoft Management in Azure
+                            </a>{" "}
+                            or{" "}
+                            <a
+                              href="https://calculator.aws/#/?key=new"
+                              rel="noreferrer noopener"
+                              target="_blank"
+                              title="AWS Pricing Calculator"
+                            >
+                              AWS Pricing Calculator
+                            </a>
+                            . What kind of authentication and authorization we
+                            are going to need? It depends of your business rules
+                            to ensure that only authorized users can access this
+                            services.How we can scale the resources of your
+                            backend in case of High demand? for this question is
+                            a good practice the use of Docker with Kubernates to
+                            automatically scale based on metrics such as CPU
+                            utilization, memory usage, or network traffic. Some
+                            cloud providers have some services to auto scale
+                            your resources such as{" "}
+                            <a
+                              href="https://aws.amazon.com/en/autoscaling/"
+                              target="_blank"
+                              rel="noreferrer noopener"
+                              title="AWS Auto Scaling"
+                            >
+                              AWS Auto Scaling
+                            </a>
+                            .
+                          </p>
+                          <p>
+                            Sometimes we might need diagrams of sequence to
+                            understand some process that intereacts with
+                            multiple Objects inside our system. Also we are
+                            going to need diagrams Entity Relationship to design
+                            your Database because we this diagram we can
+                            understand the data structure,we also should take
+                            care of the limitations of our app and the scope of
+                            this web application.Finally a custom diagram of
+                            architecture about how will be our backend with all
+                            this infrastructure working together.
+                          </p>
+                          <p>
+                            Last but not least once that all team members have
+                            already identified all these features is time to
+                            define the User Stories that we need to address and
+                            split the development of these user stories in
+                            sprints , then we can start to program.
                           </p>
                           <h3>References</h3>
                           <ul>
@@ -493,15 +549,6 @@ export const Services = () => {
                                 target="_blank"
                               >
                                 https://uxdesign.cc/the-ultimate-guide-to-stakeholder-interviews-understand-your-clients-a3bcf87b6e8b
-                              </a>
-                            </li>
-                            <li>
-                              <a
-                                href="https://uxdesign.cc/ux-storyboarding-2ce43875f3de"
-                                rel="noreferrer"
-                                target="_blank"
-                              >
-                                https://uxdesign.cc/ux-storyboarding-2ce43875f3de
                               </a>
                             </li>
                           </ul>
