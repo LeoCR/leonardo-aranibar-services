@@ -369,8 +369,36 @@ export const Services = () => {
                             identified your use cases, once that all the parts
                             approved this diagram(Stakeholders, Team
                             Leads,Product Owner,UX Leads,…) now we can start to
-                            design the wireframes and then the prototipes.
+                            design the wireframes and then the prototipes. For
+                            example this is a Diagram of Use Cases that I
+                            created for the{" "}
+                            <a
+                              href="https://leonardoaranibar.co.cr/react-pokemon-ui/"
+                              target="_blank"
+                              rel="noreferrer noopener"
+                            >
+                              Pokedex UI project
+                            </a>
                           </p>
+                          <figure
+                            className="wp-block-image"
+                            style={{ top: "0 !important" }}
+                          >
+                            <img
+                              decoding="async"
+                              width="816"
+                              height="616"
+                              src="https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/use-case-diagram.png"
+                              data-src="https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/use-case-diagram.png"
+                              alt="Use Case Diagram Example"
+                              className="wp-image-408 lazy loaded"
+                              data-srcset="https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/use-case-diagram.png 816w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/use-case-diagram-300x226.png 300w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/use-case-diagram-768x580.png 768w"
+                              data-sizes="(max-width: 816px) 100vw, 816px"
+                              sizes="(max-width: 816px) 100vw, 816px"
+                              srcset="https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/use-case-diagram.png 816w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/use-case-diagram-300x226.png 300w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/use-case-diagram-768x580.png 768w"
+                              data-was-processed="true"
+                            />
+                          </figure>
                           <h2>What is a Wireframe?</h2>
                           <p>
                             Wireframes provide a clear overview of the page
@@ -379,8 +407,35 @@ export const Services = () => {
                             practice most commonly used by UX designers. This
                             process allows all stakeholders to agree on where
                             the information will be placed before the developers
-                            build the interface out with code.
+                            build the interface out with code.For example this
+                            is a Wireframe that I created for the{" "}
+                            <a
+                              href="https://leonardoaranibar.co.cr/react-pokemon-ui/"
+                              target="_blank"
+                              rel="noreferrer noopener"
+                            >
+                              Pokedex UI project
+                            </a>
                           </p>
+                          <figure
+                            className="wp-block-image"
+                            style={{ top: "0 !important" }}
+                          >
+                            <img
+                              decoding="async"
+                              width="767"
+                              height="656"
+                              src="https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/wireframe_pokemons.png"
+                              data-src="https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/wireframe_pokemons.png"
+                              alt=""
+                              className="wp-image-405 lazy loaded"
+                              data-srcset="https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/wireframe_pokemons.png 767w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/wireframe_pokemons-300x257.png 300w"
+                              data-sizes="(max-width: 767px) 100vw, 767px"
+                              sizes="(max-width: 767px) 100vw, 767px"
+                              srcset="https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/wireframe_pokemons.png 767w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/wireframe_pokemons-300x257.png 300w"
+                              data-was-processed="true"
+                            />
+                          </figure>
                           <h2>What is a Prototype?</h2>
                           <p>
                             A simulation or sample version of a final product,
@@ -390,6 +445,25 @@ export const Services = () => {
                             passing the final designs to engineering teams for
                             the development process.
                           </p>
+                          <figure
+                            className="wp-block-image size-large"
+                            style={{top:'0 !important'}}
+                          >
+                            <img
+                              decoding="async"
+                              width="1024"
+                              height="640"
+                              src="https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/prototype-1024x640.png"
+                              data-src="https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/prototype-1024x640.png"
+                              alt="Prototype Example"
+                              className="wp-image-409 lazy loaded"
+                              data-srcset="https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/prototype-1024x640.png 1024w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/prototype-300x188.png 300w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/prototype-768x480.png 768w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/prototype.png 1254w"
+                              data-sizes="(max-width: 1024px) 100vw, 1024px"
+                              sizes="(max-width: 1024px) 100vw, 1024px"
+                              srcset="https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/prototype-1024x640.png 1024w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/prototype-300x188.png 300w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/prototype-768x480.png 768w, https://leonardoaranibar.co.cr/wp-content/uploads/2023/05/prototype.png 1254w"
+                              data-was-processed="true"
+                            />
+                          </figure>
                           <h2>
                             What is the difference between Wireframes and
                             Prototypes?
